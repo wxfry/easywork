@@ -1,0 +1,1 @@
+<view><navbar wx:if="{{a}}" u-i="38710852-0" bind:__l="__l" u-p="{{a}}"></navbar><data-list wx:if="{{d}}" u-s="{{['d']}}" bindloadData="{{c}}" u-i="38710852-1" bind:__l="__l" u-p="{{d}}"><view wx:for="{{b}}" wx:for-item="v0" wx:key="c" slot="{{v0.d}}"><exam-record wx:if="{{v0.b}}" u-i="{{v0.a}}" bind:__l="__l" u-p="{{v0.b}}"></exam-record></view></data-list></view>

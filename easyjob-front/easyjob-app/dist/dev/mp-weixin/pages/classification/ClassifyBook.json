@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-collapse-item": "../../node-modules/@dcloudio/uni-ui/lib/uni-collapse-item/uni-collapse-item",
+    "uni-collapse": "../../node-modules/@dcloudio/uni-ui/lib/uni-collapse/uni-collapse"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-data-checkbox": "../../node-modules/@dcloudio/uni-ui/lib/uni-data-checkbox/uni-data-checkbox",
+    "exam-no-finished-model": "./ExamNoFinishedModel",
+    "navbar-footer": "../components/common/NavbarFooter"
+  }
+}

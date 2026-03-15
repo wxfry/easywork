@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-forms": "../../node-modules/@dcloudio/uni-ui/lib/uni-forms/uni-forms",
+    "exam-question-item": "../exam/ExamQuestionItem",
+    "exam-post-model": "../exam/ExamPostModel"
+  }
+}

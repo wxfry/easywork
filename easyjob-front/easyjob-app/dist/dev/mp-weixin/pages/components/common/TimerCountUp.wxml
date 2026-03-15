@@ -1,0 +1,1 @@
+<view class="time data-v-011d76ed"><view class="data-v-011d76ed">{{a}}</view><view class="data-v-011d76ed">:</view><view class="data-v-011d76ed">{{b}}</view><view class="data-v-011d76ed">:</view><view class="data-v-011d76ed">{{c}}</view></view>

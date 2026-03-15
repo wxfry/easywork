@@ -1,0 +1,1 @@
+<view class="detail data-v-03b808bc" selectable="true" style="{{'height:' + a + ';' + ('padding-bottom:' + b)}}" bindtouchstart="{{c}}" bindtouchend="{{d}}"><slot></slot></view>

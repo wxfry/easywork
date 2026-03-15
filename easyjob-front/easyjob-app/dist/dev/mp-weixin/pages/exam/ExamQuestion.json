@@ -1,0 +1,9 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-forms": "../../node-modules/@dcloudio/uni-ui/lib/uni-forms/uni-forms",
+    "exam-question-item": "./ExamQuestionItem",
+    "exam-post-model": "./ExamPostModel",
+    "timer-count-up": "../components/common/TimerCountUp"
+  }
+}

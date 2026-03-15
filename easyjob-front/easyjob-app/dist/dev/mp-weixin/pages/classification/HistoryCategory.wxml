@@ -1,0 +1,1 @@
+<view class="data-v-7781c51c"><popup wx:if="{{c}}" class="r data-v-7781c51c" u-s="{{['d']}}" u-r="categoryPoupRef" u-i="7781c51c-0" bind:__l="__l" u-p="{{c}}"><view class="category-list data-v-7781c51c"><view wx:for="{{a}}" wx:for-item="item" class="{{['data-v-7781c51c', 'item', item.b]}}" bindtap="{{item.c}}">{{item.a}}</view></view></popup></view>

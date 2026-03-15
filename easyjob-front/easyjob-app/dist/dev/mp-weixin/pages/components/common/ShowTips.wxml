@@ -1,0 +1,1 @@
+<view class="notice data-v-600c49d0"><uni-notice-bar wx:if="{{a}}" class="data-v-600c49d0" bindclick="{{b}}" u-i="600c49d0-0" bind:__l="__l" u-p="{{c}}"></uni-notice-bar></view>

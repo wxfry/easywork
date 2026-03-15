@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uv-parse": "../components/uv-parse/components/uv-parse/uv-parse",
+    "question-item": "./QuestionItem",
+    "navbar": "../components/common/Navbar"
+  }
+}

@@ -1,0 +1,1 @@
+<block wx:for="{{a}}" wx:for-item="item"><slot name="{{item.a}}"></slot></block><uni-load-more wx:if="{{b}}" u-i="020354d1-0" bind:__l="__l" u-p="{{b}}"></uni-load-more>

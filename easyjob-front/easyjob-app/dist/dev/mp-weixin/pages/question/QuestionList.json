@@ -1,0 +1,8 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "question-category": "./QuestionCategory1",
+    "question-item": "./QuestionItem"
+  }
+}

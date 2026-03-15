@@ -1,0 +1,424 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.uni-grid-item[data-v-25caaff7] {
+  height: 100%;
+  display: flex;
+}
+.uni-grid-item__box[data-v-25caaff7] {
+  display: flex;
+  width: 100%;
+  position: relative;
+  flex: 1;
+  flex-direction: column;
+}
+.uni-grid-item--border[data-v-25caaff7] {
+  position: relative;
+  z-index: 0;
+  border-bottom: 1px #D2D2D2 solid;
+  border-right: 1px #D2D2D2 solid;
+}
+.uni-grid-item--border-top[data-v-25caaff7] {
+  position: relative;
+  border-top: 1px #D2D2D2 solid;
+  z-index: 0;
+}
+.uni-highlight[data-v-25caaff7]:active {
+  background-color: #f1f1f1;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.uni-grid-wrap[data-v-c73220d0] {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.uni-grid[data-v-c73220d0] {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.uni-grid--border[data-v-c73220d0] {
+  position: relative;
+  z-index: 1;
+  border-left: 1px #D2D2D2 solid;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.navbar[data-v-a4f0bb53] {
+  background: linear-gradient(to right, #9060df, #6356de);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 10px;
+}
+.navbar .left[data-v-a4f0bb53] {
+  width: 20px;
+}
+.navbar .content[data-v-a4f0bb53] {
+  text-align: center;
+  flex: 1;
+}
+.navbar .right[data-v-a4f0bb53] {
+  width: 20px;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.navbar-footer[data-v-c878b799] {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: #fff;
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+}
+.navbar-footer .tab-bar[data-v-c878b799] {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+}
+.navbar-footer .tab-bar .tab-item[data-v-c878b799] {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-footer .tab-bar .tab-item.active[data-v-c878b799] {
+  color: #8f60df;
+}
+.navbar-footer .tab-bar .tab-item .iconfont[data-v-c878b799] {
+  font-size: 22px;
+}
+.navbar-footer .tab-bar .tab-item .text[data-v-c878b799] {
+  font-size: 12px;
+  margin-top: 2px;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+body,
+.container {
+  width: 100vw;
+  height: 100%;
+}
+
+/* 容器 */
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.container .scroll-panel {
+  flex-grow: 1;
+  height: 0;
+  overflow: hidden;
+}
+.fication-search {
+  width: 21.4375rem;
+  height: 2rem;
+  margin: 0.375rem auto;
+  background: #F5F6F7;
+  border-radius: 1rem 1rem 1rem 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.fication-search uni-input {
+  padding-left: 0.75rem;
+  font-size: 12px;
+  font-family: PingFang SC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #B5B5B5;
+}
+.fication-search uni-input::-webkit-input-placeholder {
+  color: red !important;
+}
+.search-icon {
+  width: 0.75rem;
+  height: 0.75rem;
+  margin-right: 0.9375rem;
+}
+.list-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  font-size: 0.875rem;
+}
+.list-box .left {
+  width: 6.125rem;
+  background: #F5F6F7;
+  line-height: 3.5rem;
+  box-sizing: border-box;
+  font-size: 0.875rem;
+  font-family: PingFang SC-Medium, PingFang SC;
+}
+.list-box .left .item {
+  position: relative;
+  display: flex;
+}
+.list-box .left .item:not(:first-child) {
+  margin-top: 1px;
+}
+.list-box .left .item:not(:first-child)::after {
+  content: "";
+  display: block;
+  height: 0;
+  width: 19.375rem;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  transform: scaleY(0.5); /* 1px像素 */
+}
+.list-box .left .item .item-name {
+  padding-left: 1rem;
+}
+.list-box .left .item.active {
+  color: #F7433D;
+  background-color: #fff;
+}
+.list-box .left .item.active .activelink {
+  width: 0.25rem;
+  height: 1.5rem;
+  margin-top: 1rem;
+  padding-left: 0;
+  background-color: #F7433D;
+  border-radius: 2px 2px 2px 2px;
+}
+.list-box .left .fill-last {
+  height: 0;
+  width: 100%;
+  background: none;
+}
+.list-box .title {
+  line-height: 2rem;
+  font-size: 16px;
+  font-family: PingFang SC-Bold, PingFang SC;
+  font-weight: bold;
+  color: #000000;
+  padding: 0.25rem 0;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 19;
+}
+.orderlist-list {
+  width: 16.4375rem;
+  height: 2.5rem;
+  background: #FFFFFF;
+  margin: 0 auto;
+  display: flex;
+  border-bottom: 0.0625rem solid #F5F6F7;
+}
+.list-left {
+  margin: 0.75rem;
+  width: 4.75rem;
+  height: 4.75rem;
+  border-radius: 4px 4px 4px 4px;
+  overflow: hidden;
+}
+.list-left uni-image {
+  width: 100%;
+  height: 100%;
+}
+.list-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.list-name {
+  margin-top: 0.75rem;
+  font-size: 16px;
+  font-family: PingFang SC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #000000;
+  line-height: 19px;
+}
+.list-ping {
+  margin: 0.625rem 0;
+  display: flex;
+  font-size: 12px;
+  font-family: PingFang SC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #FFB800;
+}
+.list-ping uni-text {
+  margin-left: 0.1875rem;
+}
+.list-meuns {
+  margin-bottom: 0.875rem;
+  font-size: 12px;
+  font-family: PingFang SC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+.image {
+  width: 40px;
+  height: 40px;
+}
+.text {
+  font-size: 14px;
+  margin-top: 5px;
+}
+.grid-dynamic-box {
+  margin-bottom: 15px;
+}
+.grid-item-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+}
+.grid-item-box-row {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+}
+.grid-dot {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+}
+.swiper {
+  height: 420px;
+}
+@media screen and (min-width: 768px) and (max-width: 1425px) {
+.swiper {
+    height: 630px;
+}
+}
+@media screen and (min-width: 1425px) {
+.swiper {
+    height: 830px;
+}
+}

@@ -1,0 +1,1 @@
+<view class="data-v-6d1ad68c"><navbar wx:if="{{a}}" class="data-v-6d1ad68c" u-i="6d1ad68c-0" bind:__l="__l" u-p="{{a}}"></navbar><view class="data-v-6d1ad68c"><exam-question-item wx:if="{{b}}" class="data-v-6d1ad68c" u-i="6d1ad68c-1" bind:__l="__l" u-p="{{b}}"></exam-question-item></view></view>

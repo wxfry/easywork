@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uv-parse": "../components/uv-parse/components/uv-parse/uv-parse",
+    "share-item": "./ShareItem"
+  }
+}

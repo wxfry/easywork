@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "question-category": "./HistoryCategory",
+    "question-item": "./HistoryItem"
+  }
+}

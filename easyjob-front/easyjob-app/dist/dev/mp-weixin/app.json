@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/Index",
+    "pages/question/QuestionIndex",
+    "pages/question/QuestionList",
+    "pages/question/QuestionDetail",
+    "pages/exam/ExamIndex",
+    "pages/exam/ExamQuestion",
+    "pages/share/ShareIndex",
+    "pages/share/ShareDetail",
+    "pages/my/MyIndex",
+    "pages/my/CollectQuestion",
+    "pages/my/CollectExamQuestionList",
+    "pages/my/CollectExamQuestion",
+    "pages/my/ExamList",
+    "pages/my/WrongExamQuestion",
+    "pages/my/WrongQuestionList",
+    "pages/my/WrongQuestionText",
+    "pages/my/Feedback",
+    "pages/my/FeedbackReply",
+    "pages/account/LoginAndRegister",
+    "pages/carousel/ExamQuestion",
+    "pages/carousel/WebView",
+    "pages/search/SearchIndex",
+    "pages/search/QuestionItem",
+    "pages/search/Questions",
+    "pages/classification/Classify",
+    "pages/classification/ClassifyBook",
+    "pages/classification/ClassifyList",
+    "pages/classification/TestQuestion",
+    "pages/classification/QuestionDetail",
+    "pages/classification/TextDetail",
+    "pages/classification/HistoryIndex",
+    "pages/commend/commendIndex",
+    "pages/commend/commendPractice"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#8f60df"
+  },
+  "usingComponents": {
+    "navbar": "/pages/components/common/Navbar",
+    "data-list": "/pages/components/common/DataList",
+    "popup": "/pages/components/common/Popup",
+    "show-tips": "/pages/components/common/ShowTips",
+    "footer": "/pages/components/common/Footer",
+    "slide-page": "/pages/components/common/SlidePage",
+    "dialog": "/pages/components/common/Dialog"
+  }
+}

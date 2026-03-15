@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-easyinput": "../../node-modules/@dcloudio/uni-ui/lib/uni-easyinput/uni-easyinput",
+    "tag": "../components/common/Tag",
+    "question-item": "../question/QuestionItem",
+    "question-item2": "./QuestionItem",
+    "data-list": "../components/common/DataList"
+  }
+}

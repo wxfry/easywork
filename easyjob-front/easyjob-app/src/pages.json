@@ -1,0 +1,299 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			// uni-ui 规则如下配置
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+		}
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/Index",
+			"style": {
+				"navigationStyle": "custom"
+				// 去掉默认title,"navigationBarTitleText": "uni-app",默认标题无法自定义操作
+				// 设置上面行首行与模拟器状态栏重合
+				// 浏览器无状态栏,置顶显示
+				// 标题栏要自定义,实现导航、搜索等部分操作，自定义部分在stores
+			}
+		},
+		{
+			"path": "pages/question/QuestionIndex",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true // 是否开启下拉刷新
+			}
+		},
+		{
+			"path": "pages/question/QuestionList",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/question/QuestionDetail",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/exam/ExamIndex",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/exam/ExamQuestion",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/share/ShareIndex",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/share/ShareDetail",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my/MyIndex",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my/CollectQuestion",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my/CollectExamQuestionList",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my/CollectExamQuestion",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my/ExamList",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my/WrongExamQuestion",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my/WrongQuestionList",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my/WrongQuestionText",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my/Feedback",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my/FeedbackReply",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/account/LoginAndRegister",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/carousel/ExamQuestion",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/carousel/WebView",
+			"style": {
+				"navigationBarTitleText": "外部连接"
+			}
+		},
+		{
+			"path": "pages/search/SearchIndex",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/search/QuestionItem",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/search/Questions",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/classification/Classify",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/classification/ClassifyBook",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/classification/ClassifyList",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/classification/TestQuestion",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/classification/QuestionDetail",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/classification/TextDetail",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/classification/HistoryIndex",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/classification/PastPaper",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/commend/commendIndex",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/commend/commendPractice",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#494949",
+		"selectedColor": "#8f60df",
+		"backgroundColor": "#fff",
+		"iconfontSrc": "/static/icon/iconfont.ttf",
+		"height": "60px",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/Index",
+				"text": "首页",
+				"color": "#494949",
+				"iconfont": {
+					"text": "\ue674",
+					"selectedText": "\ue674",
+					"fontSize": "22px",
+					"color": "#494949",
+					"selectedColor": "#8f60df"
+				}
+			},
+			{
+				"pagePath": "pages/classification/Classify",
+				"text": "分类",
+				"iconfont": {
+					"text": "\ue622",
+					"selectedText": "\ue622",
+					"fontSize": "22px",
+					"color": "#494949",
+					"selectedColor": "#8f60df"
+				}
+			},
+			{
+				"pagePath": "pages/exam/ExamIndex",
+				"text": "在线考试",
+				"iconfont": {
+					"text": "\ue671",
+					"selectedText": "\ue671",
+					"fontSize": "22px",
+					"color": "#494949",
+					"selectedColor": "#8f60df"
+				}
+			},
+			{
+				"pagePath": "pages/commend/commendIndex",
+				"text": "学习统计",
+				"iconfont": {
+					"text": "\ue86f",
+					"selectedText": "\ue86f",
+					"fontSize": "22px",
+					"color": "#494949",
+					"selectedColor": "#8f60df"
+				}
+			},
+			{
+				"pagePath": "pages/my/MyIndex",
+				"text": "我的",
+				"iconfont": {
+					"text": "\ue78b",
+					"selectedText": "\ue78b",
+					"fontSize": "22px",
+					"color": "#494949",
+					"selectedColor": "#8f60df"
+				}
+			}
+		]
+	},
+
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#8f60df",
+		"app-plus": {
+			"pullToRefresh": { //修改下拉刷新样式颜色
+				"style": "circle",
+				"color": "#8f60df"
+			},
+			"bounce": "none"
+		}
+	}
+}

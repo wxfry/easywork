@@ -1,0 +1,6 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "feedback-edit": "./FeedBackEdit"
+  }
+}

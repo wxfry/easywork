@@ -1,0 +1,1 @@
+<dialog wx:if="{{d}}" class="r" u-s="{{['d']}}" u-r="dialogRef" u-i="56c6b0f6-0" bind:__l="__l" u-p="{{d}}"><view wx:for="{{a}}" wx:for-item="item"><exam-record wx:if="{{item.b}}" bindreload="{{b}}" u-i="{{item.a}}" bind:__l="__l" u-p="{{item.b}}"></exam-record></view></dialog>

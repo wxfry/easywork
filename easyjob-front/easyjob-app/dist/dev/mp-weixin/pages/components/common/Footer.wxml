@@ -1,0 +1,1 @@
+<view class="footer data-v-a676f463"><view class="{{['data-v-a676f463', 'iconfont icon-collect', a]}}" bindtap="{{b}}"></view><view class="other data-v-a676f463"><slot></slot></view></view>

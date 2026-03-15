@@ -1,0 +1,232 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page,
+.container {
+  width: 100vw;
+  height: 100%;
+}
+
+/* 容器 */
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.container .scroll-panel {
+  flex-grow: 1;
+  height: 0;
+  overflow: hidden;
+}
+.fication-search {
+  width: 686rpx;
+  height: 64rpx;
+  margin: 12rpx auto;
+  background: #F5F6F7;
+  border-radius: 32rpx 32rpx 32rpx 32rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.fication-search input {
+  padding-left: 24rpx;
+  font-size: 12px;
+  font-family: PingFang SC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #B5B5B5;
+}
+.fication-search input::-webkit-input-placeholder {
+  color: red !important;
+}
+.search-icon {
+  width: 24rpx;
+  height: 24rpx;
+  margin-right: 30rpx;
+}
+.list-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  font-size: 28rpx;
+}
+.list-box .left {
+  width: 196rpx;
+  background: #F5F6F7;
+  line-height: 112rpx;
+  box-sizing: border-box;
+  font-size: 28rpx;
+  font-family: PingFang SC-Medium, PingFang SC;
+}
+.list-box .left .item {
+  position: relative;
+  display: flex;
+}
+.list-box .left .item:not(:first-child) {
+  margin-top: 1px;
+}
+.list-box .left .item:not(:first-child)::after {
+  content: "";
+  display: block;
+  height: 0;
+  width: 620rpx;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  transform: scaleY(0.5); /* 1px像素 */
+}
+.list-box .left .item .item-name {
+  padding-left: 32rpx;
+}
+.list-box .left .item.active {
+  color: #F7433D;
+  background-color: #fff;
+}
+.list-box .left .item.active .activelink {
+  width: 8rpx;
+  height: 48rpx;
+  margin-top: 32rpx;
+  padding-left: 0;
+  background-color: #F7433D;
+  border-radius: 2px 2px 2px 2px;
+}
+.list-box .left .fill-last {
+  height: 0;
+  width: 100%;
+  background: none;
+}
+.list-box .title {
+  line-height: 64rpx;
+  font-size: 16px;
+  font-family: PingFang SC-Bold, PingFang SC;
+  font-weight: bold;
+  color: #000000;
+  padding: 8rpx 0;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 19;
+}
+.orderlist-list {
+  width: 526rpx;
+  height: 80rpx;
+  background: #FFFFFF;
+  margin: 0 auto;
+  display: flex;
+  border-bottom: 2rpx solid #F5F6F7;
+}
+.list-left {
+  margin: 24rpx;
+  width: 152rpx;
+  height: 152rpx;
+  border-radius: 4px 4px 4px 4px;
+  overflow: hidden;
+}
+.list-left image {
+  width: 100%;
+  height: 100%;
+}
+.list-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.list-name {
+  margin-top: 24rpx;
+  font-size: 16px;
+  font-family: PingFang SC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #000000;
+  line-height: 19px;
+}
+.list-ping {
+  margin: 20rpx 0;
+  display: flex;
+  font-size: 12px;
+  font-family: PingFang SC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #FFB800;
+}
+.list-ping text {
+  margin-left: 6rpx;
+}
+.list-meuns {
+  margin-bottom: 28rpx;
+  font-size: 12px;
+  font-family: PingFang SC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+.image {
+  width: 40px;
+  height: 40px;
+}
+.text {
+  font-size: 14px;
+  margin-top: 5px;
+}
+.grid-dynamic-box {
+  margin-bottom: 15px;
+}
+.grid-item-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+}
+.grid-item-box-row {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+}
+.grid-dot {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+}
+.swiper {
+  height: 420px;
+}
+@media screen and (min-width: 768px) and (max-width: 1425px) {
+.swiper {
+    height: 630px;
+}
+}
+@media screen and (min-width: 1425px) {
+.swiper {
+    height: 830px;
+}
+}

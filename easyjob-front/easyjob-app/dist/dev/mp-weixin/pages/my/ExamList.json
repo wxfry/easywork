@@ -1,0 +1,6 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "exam-record": "../exam/ExamRecord"
+  }
+}

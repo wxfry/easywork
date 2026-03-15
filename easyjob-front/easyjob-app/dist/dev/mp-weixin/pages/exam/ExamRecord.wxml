@@ -1,0 +1,1 @@
+<view class="exam-item data-v-35b61b65"><view class="create-time data-v-35b61b65">{{a}}</view><view class="op-panel data-v-35b61b65"><view class="op a-link data-v-35b61b65" bindtap="{{c}}">{{b}}</view><view class="op a-link data-v-35b61b65" bindtap="{{d}}">删除</view></view></view>

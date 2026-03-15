@@ -1,0 +1,1 @@
+<view class="question-item data-v-fe72f6d1" bindtap="{{b}}"><view class="title-info data-v-fe72f6d1"><text class="title data-v-fe72f6d1"><rich-text class="data-v-fe72f6d1" nodes="{{a}}"></rich-text></text></view></view>
